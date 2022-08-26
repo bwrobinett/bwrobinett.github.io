@@ -1,5 +1,6 @@
-(function (global, $) {
-    $(document).on('click', '[hello]', function () {
-        alert('Merry Christmas! ' + this.innerHTML);
-    });
-})(this, jQuery);
+{
+  console.log("javascript code!");
+  document.body.addEventListener("load", () => {
+    document.body.innerHTML = "Goodbye";
+  });
+}
